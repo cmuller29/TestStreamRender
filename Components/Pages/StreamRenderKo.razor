@@ -1,29 +1,34 @@
 ﻿@using MediatR
+@using Microsoft.EntityFrameworkCore
 @using SoloRpg.Application.Features.Admin.Dtos
 @using SoloRpg.Application.Features.Admin.Queries
-@using TestStreamRender.Queries
+@using TestStreamRender.Models
 
 @page "/renderko"
 @attribute [StreamRendering]
-@inject IMediator Mediator
+@inject TestDbContext dbContext
 
 <h1>Render KO</h1>
 
-@if (!rendered)
+@if (testModels == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
-    <p>Rendered !</p>
+    <ul>
+        @foreach (var item in testModels)
+        {
+            <li>@item.Test</li>
+        }
+    </ul>
 }
 
 @code {
-    bool rendered = false;
+    IEnumerable<TestModelKo>? testModels;
 
     protected override async Task OnInitializedAsync()
     {
-        await Mediator.Send(new GetQuery());
-        rendered = true;
+        testModels = await dbContext.KoModels.ToListAsync();
     }
 } 

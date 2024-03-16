@@ -2743,7 +2743,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "MediatR >= 12.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.3",
       "SoloRpg.Application >= 1.0.0",
@@ -2817,10 +2816,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "MediatR": {
-            "target": "Package",
-            "version": "[12.2.0, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

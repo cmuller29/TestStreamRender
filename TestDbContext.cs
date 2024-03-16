@@ -6,15 +6,23 @@ namespace TestStreamRender;
 public class TestDbContext(DbContextOptions options)
     : DbContext(options)
 {
-    public DbSet<TestModel> Models { get; set; }
+    public DbSet<TestModelOk> OkModels { get; set; }
+    public DbSet<TestModelKo> KoModels { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<TestModel>()
-            .HasData([
-                new TestModel { Id = Guid.NewGuid(), Test = "TEST1" },
-                new TestModel { Id = Guid.NewGuid(), Test = "TEST2" },
-                new TestModel { Id = Guid.NewGuid(), Test = "TEST3" }
-                ]);
+        modelBuilder.Entity<TestModelOk>()
+            .HasData(GenerateTestData<TestModelOk>());
+
+        modelBuilder.Entity<TestModelKo>()
+            .HasData(GenerateTestData<TestModelKo>());
+    }
+
+    private IEnumerable<T> GenerateTestData<T>() where T : BaseModel, new()
+    {
+        for (int i = 0; i < 10000; i++)
+        {
+            yield return new T() { Id = Guid.NewGuid(), Test = $"TEST{i}" };
+        }
     }
 }

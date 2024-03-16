@@ -8,12 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddMediatR(configuration =>
-{
-    configuration.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
-    configuration.Lifetime = ServiceLifetime.Scoped;
-});
-
 builder.Services.AddDbContext<TestDbContext>(options =>
     options.UseSqlite("Data Source=LocalDatabase.db")
 );
