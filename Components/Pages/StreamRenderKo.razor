@@ -1,0 +1,29 @@
+﻿@using MediatR
+@using SoloRpg.Application.Features.Admin.Dtos
+@using SoloRpg.Application.Features.Admin.Queries
+@using TestStreamRender.Queries
+
+@page "/renderko"
+@attribute [StreamRendering]
+@inject IMediator Mediator
+
+<h1>Render KO</h1>
+
+@if (!rendered)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <p>Rendered !</p>
+}
+
+@code {
+    bool rendered = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Mediator.Send(new GetQuery());
+        rendered = true;
+    }
+} 

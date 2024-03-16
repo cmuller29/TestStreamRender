@@ -1,0 +1,494 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cmuller\\source\\repos\\TestStreamRender\\TestStreamRender\\TestStreamRender.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj",
+        "projectName": "SoloRpg.Application",
+        "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj",
+        "packagesPath": "C:\\Users\\cmuller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmuller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj"
+              },
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj",
+        "projectName": "SoloRpg.Common",
+        "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj",
+        "packagesPath": "C:\\Users\\cmuller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmuller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj",
+        "projectName": "SoloRpg.Domain",
+        "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj",
+        "packagesPath": "C:\\Users\\cmuller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmuller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Common\\SoloRpg.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.MapEngine\\SoloRpg.MapEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.MapEngine\\SoloRpg.MapEngine.csproj",
+        "projectName": "SoloRpg.MapEngine",
+        "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.MapEngine\\SoloRpg.MapEngine.csproj",
+        "packagesPath": "C:\\Users\\cmuller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.MapEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmuller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Persistence\\SoloRpg.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Persistence\\SoloRpg.Persistence.csproj",
+        "projectName": "SoloRpg.Persistence",
+        "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Persistence\\SoloRpg.Persistence.csproj",
+        "packagesPath": "C:\\Users\\cmuller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmuller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj"
+              },
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cmuller\\source\\repos\\TestStreamRender\\TestStreamRender\\TestStreamRender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cmuller\\source\\repos\\TestStreamRender\\TestStreamRender\\TestStreamRender.csproj",
+        "projectName": "TestStreamRender",
+        "projectPath": "C:\\Users\\cmuller\\source\\repos\\TestStreamRender\\TestStreamRender\\TestStreamRender.csproj",
+        "packagesPath": "C:\\Users\\cmuller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmuller\\source\\repos\\TestStreamRender\\TestStreamRender\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmuller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Application\\SoloRpg.Application.csproj"
+              },
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Domain\\SoloRpg.Domain.csproj"
+              },
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.MapEngine\\SoloRpg.MapEngine.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.MapEngine\\SoloRpg.MapEngine.csproj"
+              },
+              "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Persistence\\SoloRpg.Persistence.csproj": {
+                "projectPath": "C:\\Users\\cmuller\\source\\repos\\SoloRpg\\src\\SoloRpg.Persistence\\SoloRpg.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

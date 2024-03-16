@@ -1,0 +1,23 @@
+﻿@page "/renderok"
+@attribute [StreamRendering]
+
+<h1>Render OK</h1>
+
+@if (!rendered)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <p>Rendered !</p>  
+}
+
+@code {
+    bool rendered = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1000);
+        rendered = true;
+    }
+} 

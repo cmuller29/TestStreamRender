@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SoloRpg\src\SoloRpg.Application\SoloRpg.Application.csproj" />
+    <ProjectReference Include="..\..\SoloRpg\src\SoloRpg.Domain\SoloRpg.Domain.csproj" />
+    <ProjectReference Include="..\..\SoloRpg\src\SoloRpg.MapEngine\SoloRpg.MapEngine.csproj" />
+    <ProjectReference Include="..\..\SoloRpg\src\SoloRpg.Persistence\SoloRpg.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
